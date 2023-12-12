@@ -1,0 +1,141 @@
+
+:root{
+	--color-negro:#222;
+	--menu-hover:#b68834;
+	--color-cafe:#b68834;
+	--color-gris:#777;
+	--color-gris2:#d4d4d4;
+	--fondo-header:#222;
+	--fondo-footer:#282932;
+	
+}
+body{
+
+	font-size: 14px;
+}
+header{
+	position: relative;
+	background-color: var(--fondo-header);
+	background-image: url("../img/header-bg.jpg");
+	width: 100%;
+	height: 900px;
+	top:10;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+footer{
+	background-color: var(--fondo-footer);
+	background-image: url("../img/footer-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+	text-align: left;
+	padding: 10% 0;
+}
+footer p span{
+	color: var(--color-cafe);
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+footer h3{
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color: #fff;
+}
+#hero{
+	background-position: top center;
+	background-size: cover;
+  	background-blend-mode: multiply;
+	padding: 2% 0;
+
+}
+#hero h1{
+	color:#fff;
+	font-size: 80px;
+}
+
+
+.btn-light{
+	border-radius: 10;
+	padding: 10px 50px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 12px;
+	font-weight: 600;
+	border: 0;
+}
+.section{
+	padding: 7% 0;
+
+}
+#works h6{
+	color: var(--color-cafe);
+	font-size: 15px;
+}
+
+.contenedor-tarjetas {
+	padding: 6% 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px; 
+}
+
+.tarjeta {
+	flex: 0 0 calc(33.33% - 20px); 
+	background-color: #fff; 
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+	padding: 20px; 
+}
+
+.tarjeta h2 {
+	margin-top: 0;
+	color: #333; 
+}
+
+#menu h2{
+text-align: center;
+}
+#menu h6{
+	text-align: center;
+}
+
+#menu {
+	background-image: url("../img/menu-bg.jpg");
+}
+
+
+#kind h2{
+	text-align: center;
+}
+#kind h6{
+	text-align: center;
+}
+#Blog h2{
+	text-align: center;
+}
+#Blog h6{
+	text-align: center;
+	padding: 2% 0;
+}
+#Blog {
+	background-color:var(--color-gris2) ;
+}
+
+.titulo{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 200;
+	font-weight: bold;
+}
